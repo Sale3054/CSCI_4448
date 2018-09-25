@@ -2,7 +2,7 @@
 Browser filter program, Project for CSCI-X448
 
 * **Name:** Samuel Leon
-* **Github Link:** https://github.com/Sale3054/CSCI_4448/
+* **Github Link:** https://github.com/Sale3054/CSCI_4448-Browserator
 * **Title:** Browserator
 * **Actors:** Parents, Personal Computer users, Instructors/Presenters
 * **Description:** A browsing history filter that lets you be selective with what history you remove- creating a rule set to filter the right stuff.
