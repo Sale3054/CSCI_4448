@@ -1,5 +1,5 @@
 # CSCI_4448
-Browser filter program, Project for CSCI-X448
+Dungeon crawling game, Project for CSCI-X448
 
 * **Name:** Samuel Leon
 * **Github Link:** https://github.com/Sale3054/CSCI_4448-Browserator
