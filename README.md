@@ -3,18 +3,21 @@ Browser filter program, Project for CSCI-X448
 
 * **Name:** Samuel Leon
 * **Github Link:** https://github.com/Sale3054/CSCI_4448-Browserator
-* **Title:** Browserator
-* **Actors:** Parents, Personal Computer users, Instructors/Presenters
-* **Description:** A browsing history filter that lets you be selective with what history you remove- creating a rule set to filter the right stuff.
+* **Title:** Explorerator
+* **Actors:** PC User
+* **Description:** A text/kernel based dungeon crawler RPG, wherein users are trying to find the end and explore the world and mess around and stuff.
 * **Functionality:**
-    * Users can group history
-    * Users can create rules to handle history
-    * Users can purge all history matching keyword
-    * Users can automatically cleanse groups upon exiting/startup of browser
+    * Users can create a named character
+    * Users can select a class for their character (select from three)
+    * Environment will have a room layout with 4 directional options (N, S, E, W)
+    * Rooms will contain an enemy or item
+    * Users can interact with items
+    * Users can interact with enemies
+    * Users can view their character
+    * Characters will have health, locations, and action points
     
     **[OPTIONAL] Stretch Functionality:**
-    * Users can login to this service
-    * Users can download their preferences
-    * Users can establish Parental Controls
-        * Prevent removal of history without proper credentials
-        * Send webservice notification upon inappropriate internet access
+    * Can save game state
+    * Enemy encounter system
+      * Turn based
+    * Item/loot table
