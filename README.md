@@ -1,23 +1,12 @@
 # CSCI_4448
-Dungeon crawling game, Project for CSCI-X448
+Small scale Pizza Parlor web app.
 
-* **Name:** Samuel Leon
-* **Github Link:** https://github.com/Sale3054/CSCI_4448-Browserator
-* **Title:** Explorerator
-* **Actors:** PC User
-* **Description:** A text/kernel based dungeon crawler RPG, wherein users are trying to find the end and explore the world and mess around and stuff.
-* **Functionality:**
-    * Users can create a named character
-    * Users can select a class for their character (select from three)
-    * Environment will have a room layout with 4 directional options (N, S, E, W)
-    * Rooms will contain an enemy or item
-    * Users can interact with items
-    * Users can interact with enemies
-    * Users can view their character
-    * Characters will have health, locations, and action points
-    
-    **[OPTIONAL] Stretch Functionality:**
-    * Can save game state
-    * Enemy encounter system
-      * Turn based
-    * Item/loot table
+In order to run this, you need Flask and Python2.7 or later. 
+
+Follow the base instructions to set up Flask.
+
+Then, the following will be necessary:
+1. Create your environment variable
+2. As of Flask 1.2, I believe, you need to use `set FLASK_APP=pizza.py`
+3. `set FLASK_ENV=development`
+4. `flask-run app`
