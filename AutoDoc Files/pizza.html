@@ -1,0 +1,477 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module pizza</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>pizza</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/user/Desktop/flask-tutorial/pizza_Ex/flask/pizza.py">/home/user/Desktop/flask-tutorial/pizza_Ex/flask/pizza.py</a></font></td></tr></table>
+    <p><tt>#from&nbsp;flask&nbsp;import&nbsp;*</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="abc.html">abc</a><br>
+</td><td width="25%" valign=top><a href="sqlite3.html">sqlite3</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="IngredientFactory.html#IngredientFactory">IngredientFactory.IngredientFactory</a>(<a href="__builtin__.html#object">__builtin__.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pizza.html#BoulderIngredientFactory">BoulderIngredientFactory</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="Pizza.html#Pizza">Pizza.Pizza</a>(<a href="__builtin__.html#object">__builtin__.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pizza.html#CheesePizza">CheesePizza</a>
+</font></dt><dt><font face="helvetica, arial"><a href="pizza.html#DIYPizza">DIYPizza</a>
+</font></dt><dt><font face="helvetica, arial"><a href="pizza.html#PepperoniPizza">PepperoniPizza</a>
+</font></dt><dt><font face="helvetica, arial"><a href="pizza.html#VeggiePizza">VeggiePizza</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pizza.html#PizzaStore">PizzaStore</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pizza.html#BoulderPizzaStore">BoulderPizzaStore</a>
+</font></dt></dl>
+</dd>
+</dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="BoulderIngredientFactory">class <strong>BoulderIngredientFactory</strong></a>(<a href="IngredientFactory.html#IngredientFactory">IngredientFactory.IngredientFactory</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#BoulderIngredientFactory">BoulderIngredientFactory</a>&nbsp;encapsulates&nbsp;various&nbsp;ingredients&nbsp;appropriate&nbsp;to&nbsp;the&nbsp;mentioned&nbsp;Locale,&nbsp;in&nbsp;this&nbsp;case,&nbsp;Boulder.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pizza.html#BoulderIngredientFactory">BoulderIngredientFactory</a></dd>
+<dd><a href="IngredientFactory.html#IngredientFactory">IngredientFactory.IngredientFactory</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="BoulderIngredientFactory-create_cheese"><strong>create_cheese</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="BoulderIngredientFactory-create_dough"><strong>create_dough</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="BoulderIngredientFactory-create_meats"><strong>create_meats</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="BoulderIngredientFactory-create_sauce"><strong>create_sauce</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="BoulderIngredientFactory-create_veggies"><strong>create_veggies</strong></a>(self)</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset([])</dl>
+
+<hr>
+Data descriptors inherited from <a href="IngredientFactory.html#IngredientFactory">IngredientFactory.IngredientFactory</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="IngredientFactory.html#IngredientFactory">IngredientFactory.IngredientFactory</a>:<br>
+<dl><dt><strong>__metaclass__</strong> = &lt;class 'abc.ABCMeta'&gt;<dd><tt>Metaclass&nbsp;for&nbsp;defining&nbsp;Abstract&nbsp;Base&nbsp;Classes&nbsp;(ABCs).<br>
+&nbsp;<br>
+Use&nbsp;this&nbsp;metaclass&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC.&nbsp;&nbsp;An&nbsp;ABC&nbsp;can&nbsp;be&nbsp;subclassed<br>
+directly,&nbsp;and&nbsp;then&nbsp;acts&nbsp;as&nbsp;a&nbsp;mix-in&nbsp;class.&nbsp;&nbsp;You&nbsp;can&nbsp;also&nbsp;register<br>
+unrelated&nbsp;concrete&nbsp;classes&nbsp;(even&nbsp;built-in&nbsp;classes)&nbsp;and&nbsp;unrelated<br>
+ABCs&nbsp;as&nbsp;'virtual&nbsp;subclasses'&nbsp;--&nbsp;these&nbsp;and&nbsp;their&nbsp;descendants&nbsp;will<br>
+be&nbsp;considered&nbsp;subclasses&nbsp;of&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;by&nbsp;the&nbsp;built-in<br>
+issubclass()&nbsp;function,&nbsp;but&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;won't&nbsp;show&nbsp;up&nbsp;in<br>
+their&nbsp;MRO&nbsp;(Method&nbsp;Resolution&nbsp;Order)&nbsp;nor&nbsp;will&nbsp;method<br>
+implementations&nbsp;defined&nbsp;by&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;be&nbsp;callable&nbsp;(not<br>
+even&nbsp;via&nbsp;super()).</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="BoulderPizzaStore">class <strong>BoulderPizzaStore</strong></a>(<a href="pizza.html#PizzaStore">PizzaStore</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>subclass&nbsp;of&nbsp;the&nbsp;<a href="#PizzaStore">PizzaStore</a>&nbsp;class,&nbsp;Boulder&nbsp;Localization&nbsp;specific&nbsp;implementation&nbsp;of&nbsp;the&nbsp;pizza&nbsp;store<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pizza.html#BoulderPizzaStore">BoulderPizzaStore</a></dd>
+<dd><a href="pizza.html#PizzaStore">PizzaStore</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="BoulderPizzaStore-create_pizza"><strong>create_pizza</strong></a>(self, item)</dt><dd><tt>creates&nbsp;a&nbsp;new&nbsp;pizza&nbsp;<a href="__builtin__.html#object">object</a><br>
+:param&nbsp;pizza:&nbsp;pizza&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;to&nbsp;be&nbsp;returned,&nbsp;containing&nbsp;the&nbsp;list&nbsp;of&nbsp;&nbsp;ingredients&nbsp;and&nbsp;summed&nbsp;price<br>
+:param&nbsp;ingredient_factory:&nbsp;factory&nbsp;from&nbsp;which&nbsp;our&nbsp;ingredients&nbsp;will&nbsp;be&nbsp;sourced&nbsp;(and&nbsp;our&nbsp;constructors)<br>
+:return:&nbsp;pizza&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset([])</dl>
+
+<hr>
+Methods inherited from <a href="pizza.html#PizzaStore">PizzaStore</a>:<br>
+<dl><dt><a name="BoulderPizzaStore-order_pizza"><strong>order_pizza</strong></a>(self, pizza_type)</dt><dd><tt>place&nbsp;an&nbsp;order&nbsp;for&nbsp;whatever&nbsp;pizza&nbsp;is&nbsp;passed&nbsp;in,&nbsp;based&nbsp;on&nbsp;the&nbsp;locale&nbsp;provided</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="pizza.html#PizzaStore">PizzaStore</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="pizza.html#PizzaStore">PizzaStore</a>:<br>
+<dl><dt><strong>__metaclass__</strong> = &lt;class 'abc.ABCMeta'&gt;<dd><tt>Metaclass&nbsp;for&nbsp;defining&nbsp;Abstract&nbsp;Base&nbsp;Classes&nbsp;(ABCs).<br>
+&nbsp;<br>
+Use&nbsp;this&nbsp;metaclass&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC.&nbsp;&nbsp;An&nbsp;ABC&nbsp;can&nbsp;be&nbsp;subclassed<br>
+directly,&nbsp;and&nbsp;then&nbsp;acts&nbsp;as&nbsp;a&nbsp;mix-in&nbsp;class.&nbsp;&nbsp;You&nbsp;can&nbsp;also&nbsp;register<br>
+unrelated&nbsp;concrete&nbsp;classes&nbsp;(even&nbsp;built-in&nbsp;classes)&nbsp;and&nbsp;unrelated<br>
+ABCs&nbsp;as&nbsp;'virtual&nbsp;subclasses'&nbsp;--&nbsp;these&nbsp;and&nbsp;their&nbsp;descendants&nbsp;will<br>
+be&nbsp;considered&nbsp;subclasses&nbsp;of&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;by&nbsp;the&nbsp;built-in<br>
+issubclass()&nbsp;function,&nbsp;but&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;won't&nbsp;show&nbsp;up&nbsp;in<br>
+their&nbsp;MRO&nbsp;(Method&nbsp;Resolution&nbsp;Order)&nbsp;nor&nbsp;will&nbsp;method<br>
+implementations&nbsp;defined&nbsp;by&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;be&nbsp;callable&nbsp;(not<br>
+even&nbsp;via&nbsp;super()).</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="CheesePizza">class <strong>CheesePizza</strong></a>(<a href="Pizza.html#Pizza">Pizza.Pizza</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#CheesePizza">CheesePizza</a>&nbsp;is&nbsp;a&nbsp;concrete&nbsp;instance&nbsp;of&nbsp;<a href="Pizza.html#Pizza">Pizza</a>;&nbsp;an&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;to&nbsp;be&nbsp;created&nbsp;at&nbsp;the&nbsp;final&nbsp;stage&nbsp;when&nbsp;a&nbsp;Customer&nbsp;orders.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pizza.html#CheesePizza">CheesePizza</a></dd>
+<dd><a href="Pizza.html#Pizza">Pizza.Pizza</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="CheesePizza-__init__"><strong>__init__</strong></a>(self, ingredient_factory)</dt><dd><tt>Construct&nbsp;a&nbsp;new&nbsp;<a href="#CheesePizza">CheesePizza</a>&nbsp;<a href="__builtin__.html#object">object</a>.<br>
+&nbsp;<br>
+:param&nbsp;factory:&nbsp;The&nbsp;name&nbsp;of&nbsp;the&nbsp;ingredient&nbsp;factory&nbsp;being&nbsp;used<br>
+:return:&nbsp;returns&nbsp;nothing&nbsp;at&nbsp;all</tt></dd></dl>
+
+<dl><dt><a name="CheesePizza-prepare"><strong>prepare</strong></a>(self)</dt><dd><tt>Override&nbsp;the&nbsp;abstract&nbsp;class&nbsp;declared&nbsp;in&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,&nbsp;and&nbsp;instantiate&nbsp;all&nbsp;appropriate&nbsp;ingredient&nbsp;values&nbsp;for&nbsp;the&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,<br>
+(In&nbsp;the&nbsp;case&nbsp;of&nbsp;Cheese&nbsp;pizza,&nbsp;we&nbsp;only&nbsp;need&nbsp;Dough,&nbsp;Sauce&nbsp;and&nbsp;Cheese,&nbsp;as&nbsp;a&nbsp;Cheese&nbsp;pizza&nbsp;is&nbsp;very&nbsp;plain&nbsp;otherwise)<br>
+&nbsp;<br>
+:param&nbsp;dough:&nbsp;Calls&nbsp;create_dough()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:param&nbsp;sauce:&nbsp;Calls&nbsp;create_sauce()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:param&nbsp;cheese:&nbsp;Calls&nbsp;create_cheese()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:return:&nbsp;returns&nbsp;nothing&nbsp;at&nbsp;all</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset([])</dl>
+
+<hr>
+Methods inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><a name="CheesePizza-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CheesePizza-bake"><strong>bake</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CheesePizza-box"><strong>box</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CheesePizza-calculate_price"><strong>calculate_price</strong></a>(self)</dt><dd><tt>creates&nbsp;a&nbsp;list&nbsp;of&nbsp;each&nbsp;of&nbsp;the&nbsp;attributes&nbsp;belonging&nbsp;to&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,&nbsp;and&nbsp;sums&nbsp;the&nbsp;price&nbsp;values&nbsp;of<br>
+all&nbsp;of&nbsp;the&nbsp;objects.&nbsp;This&nbsp;is&nbsp;accomplished&nbsp;by&nbsp;concatenating&nbsp;whole&nbsp;lists&nbsp;alongside&nbsp;the&nbsp;singular<br>
+variables.<br>
+:param&nbsp;total_price:&nbsp;total&nbsp;price&nbsp;of&nbsp;the&nbsp;pizza&nbsp;including&nbsp;ingrediants<br>
+:param&nbsp;attr_list:&nbsp;all&nbsp;of&nbsp;the&nbsp;related&nbsp;objects</tt></dd></dl>
+
+<dl><dt><a name="CheesePizza-cut"><strong>cut</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><strong>__metaclass__</strong> = &lt;class 'abc.ABCMeta'&gt;<dd><tt>Metaclass&nbsp;for&nbsp;defining&nbsp;Abstract&nbsp;Base&nbsp;Classes&nbsp;(ABCs).<br>
+&nbsp;<br>
+Use&nbsp;this&nbsp;metaclass&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC.&nbsp;&nbsp;An&nbsp;ABC&nbsp;can&nbsp;be&nbsp;subclassed<br>
+directly,&nbsp;and&nbsp;then&nbsp;acts&nbsp;as&nbsp;a&nbsp;mix-in&nbsp;class.&nbsp;&nbsp;You&nbsp;can&nbsp;also&nbsp;register<br>
+unrelated&nbsp;concrete&nbsp;classes&nbsp;(even&nbsp;built-in&nbsp;classes)&nbsp;and&nbsp;unrelated<br>
+ABCs&nbsp;as&nbsp;'virtual&nbsp;subclasses'&nbsp;--&nbsp;these&nbsp;and&nbsp;their&nbsp;descendants&nbsp;will<br>
+be&nbsp;considered&nbsp;subclasses&nbsp;of&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;by&nbsp;the&nbsp;built-in<br>
+issubclass()&nbsp;function,&nbsp;but&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;won't&nbsp;show&nbsp;up&nbsp;in<br>
+their&nbsp;MRO&nbsp;(Method&nbsp;Resolution&nbsp;Order)&nbsp;nor&nbsp;will&nbsp;method<br>
+implementations&nbsp;defined&nbsp;by&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;be&nbsp;callable&nbsp;(not<br>
+even&nbsp;via&nbsp;super()).</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="DIYPizza">class <strong>DIYPizza</strong></a>(<a href="Pizza.html#Pizza">Pizza.Pizza</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>A&nbsp;DIY&nbsp;pizza&nbsp;pattern.&nbsp;Currently&nbsp;questioning&nbsp;pulling&nbsp;this&nbsp;from&nbsp;the&nbsp;code&nbsp;as&nbsp;I&nbsp;am&nbsp;unsure&nbsp;how&nbsp;to&nbsp;fit&nbsp;this&nbsp;<br>
+into&nbsp;the&nbsp;present&nbsp;design&nbsp;pattern.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pizza.html#DIYPizza">DIYPizza</a></dd>
+<dd><a href="Pizza.html#Pizza">Pizza.Pizza</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="DIYPizza-__init__"><strong>__init__</strong></a>(self, ingredient_factory)</dt></dl>
+
+<dl><dt><a name="DIYPizza-prepare"><strong>prepare</strong></a>(self, dough<font color="#909090">=''</font>, sauce<font color="#909090">=''</font>, cheese<font color="#909090">=''</font>, veggies<font color="#909090">=[]</font>, meats<font color="#909090">=[]</font>)</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset([])</dl>
+
+<hr>
+Methods inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><a name="DIYPizza-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="DIYPizza-bake"><strong>bake</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="DIYPizza-box"><strong>box</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="DIYPizza-calculate_price"><strong>calculate_price</strong></a>(self)</dt><dd><tt>creates&nbsp;a&nbsp;list&nbsp;of&nbsp;each&nbsp;of&nbsp;the&nbsp;attributes&nbsp;belonging&nbsp;to&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,&nbsp;and&nbsp;sums&nbsp;the&nbsp;price&nbsp;values&nbsp;of<br>
+all&nbsp;of&nbsp;the&nbsp;objects.&nbsp;This&nbsp;is&nbsp;accomplished&nbsp;by&nbsp;concatenating&nbsp;whole&nbsp;lists&nbsp;alongside&nbsp;the&nbsp;singular<br>
+variables.<br>
+:param&nbsp;total_price:&nbsp;total&nbsp;price&nbsp;of&nbsp;the&nbsp;pizza&nbsp;including&nbsp;ingrediants<br>
+:param&nbsp;attr_list:&nbsp;all&nbsp;of&nbsp;the&nbsp;related&nbsp;objects</tt></dd></dl>
+
+<dl><dt><a name="DIYPizza-cut"><strong>cut</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><strong>__metaclass__</strong> = &lt;class 'abc.ABCMeta'&gt;<dd><tt>Metaclass&nbsp;for&nbsp;defining&nbsp;Abstract&nbsp;Base&nbsp;Classes&nbsp;(ABCs).<br>
+&nbsp;<br>
+Use&nbsp;this&nbsp;metaclass&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC.&nbsp;&nbsp;An&nbsp;ABC&nbsp;can&nbsp;be&nbsp;subclassed<br>
+directly,&nbsp;and&nbsp;then&nbsp;acts&nbsp;as&nbsp;a&nbsp;mix-in&nbsp;class.&nbsp;&nbsp;You&nbsp;can&nbsp;also&nbsp;register<br>
+unrelated&nbsp;concrete&nbsp;classes&nbsp;(even&nbsp;built-in&nbsp;classes)&nbsp;and&nbsp;unrelated<br>
+ABCs&nbsp;as&nbsp;'virtual&nbsp;subclasses'&nbsp;--&nbsp;these&nbsp;and&nbsp;their&nbsp;descendants&nbsp;will<br>
+be&nbsp;considered&nbsp;subclasses&nbsp;of&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;by&nbsp;the&nbsp;built-in<br>
+issubclass()&nbsp;function,&nbsp;but&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;won't&nbsp;show&nbsp;up&nbsp;in<br>
+their&nbsp;MRO&nbsp;(Method&nbsp;Resolution&nbsp;Order)&nbsp;nor&nbsp;will&nbsp;method<br>
+implementations&nbsp;defined&nbsp;by&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;be&nbsp;callable&nbsp;(not<br>
+even&nbsp;via&nbsp;super()).</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="PepperoniPizza">class <strong>PepperoniPizza</strong></a>(<a href="Pizza.html#Pizza">Pizza.Pizza</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>A&nbsp;concrete&nbsp;instance&nbsp;of&nbsp;<a href="Pizza.html#Pizza">Pizza</a>;&nbsp;an&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;to&nbsp;be&nbsp;created&nbsp;at&nbsp;the&nbsp;final&nbsp;stage&nbsp;when&nbsp;a&nbsp;Customer&nbsp;orders.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pizza.html#PepperoniPizza">PepperoniPizza</a></dd>
+<dd><a href="Pizza.html#Pizza">Pizza.Pizza</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="PepperoniPizza-__init__"><strong>__init__</strong></a>(self, ingredient_factory)</dt><dd><tt>Construct&nbsp;a&nbsp;new&nbsp;<a href="#PepperoniPizza">PepperoniPizza</a>&nbsp;<a href="__builtin__.html#object">object</a>.<br>
+&nbsp;<br>
+:param&nbsp;factory:&nbsp;The&nbsp;name&nbsp;of&nbsp;the&nbsp;ingredient&nbsp;factory&nbsp;being&nbsp;used<br>
+:return:&nbsp;returns&nbsp;nothing&nbsp;at&nbsp;all</tt></dd></dl>
+
+<dl><dt><a name="PepperoniPizza-prepare"><strong>prepare</strong></a>(self)</dt><dd><tt>Override&nbsp;the&nbsp;abstract&nbsp;class&nbsp;declared&nbsp;in&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,&nbsp;and&nbsp;instantiate&nbsp;all&nbsp;appropriate&nbsp;ingredient&nbsp;values&nbsp;for&nbsp;the&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,<br>
+(In&nbsp;the&nbsp;case&nbsp;of&nbsp;Pepperoni&nbsp;pizza,&nbsp;we&nbsp;only&nbsp;need&nbsp;Dough,&nbsp;Sauce,&nbsp;Cheese&nbsp;and&nbsp;Pepperoni)<br>
+&nbsp;<br>
+:param&nbsp;dough:&nbsp;Calls&nbsp;create_dough()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:param&nbsp;sauce:&nbsp;Calls&nbsp;create_sauce()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:param&nbsp;cheese:&nbsp;Calls&nbsp;create_cheese()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:param&nbsp;meats:&nbsp;Calls&nbsp;create_meats()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:return:&nbsp;returns&nbsp;nothing&nbsp;at&nbsp;all</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset([])</dl>
+
+<hr>
+Methods inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><a name="PepperoniPizza-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="PepperoniPizza-bake"><strong>bake</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="PepperoniPizza-box"><strong>box</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="PepperoniPizza-calculate_price"><strong>calculate_price</strong></a>(self)</dt><dd><tt>creates&nbsp;a&nbsp;list&nbsp;of&nbsp;each&nbsp;of&nbsp;the&nbsp;attributes&nbsp;belonging&nbsp;to&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,&nbsp;and&nbsp;sums&nbsp;the&nbsp;price&nbsp;values&nbsp;of<br>
+all&nbsp;of&nbsp;the&nbsp;objects.&nbsp;This&nbsp;is&nbsp;accomplished&nbsp;by&nbsp;concatenating&nbsp;whole&nbsp;lists&nbsp;alongside&nbsp;the&nbsp;singular<br>
+variables.<br>
+:param&nbsp;total_price:&nbsp;total&nbsp;price&nbsp;of&nbsp;the&nbsp;pizza&nbsp;including&nbsp;ingrediants<br>
+:param&nbsp;attr_list:&nbsp;all&nbsp;of&nbsp;the&nbsp;related&nbsp;objects</tt></dd></dl>
+
+<dl><dt><a name="PepperoniPizza-cut"><strong>cut</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><strong>__metaclass__</strong> = &lt;class 'abc.ABCMeta'&gt;<dd><tt>Metaclass&nbsp;for&nbsp;defining&nbsp;Abstract&nbsp;Base&nbsp;Classes&nbsp;(ABCs).<br>
+&nbsp;<br>
+Use&nbsp;this&nbsp;metaclass&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC.&nbsp;&nbsp;An&nbsp;ABC&nbsp;can&nbsp;be&nbsp;subclassed<br>
+directly,&nbsp;and&nbsp;then&nbsp;acts&nbsp;as&nbsp;a&nbsp;mix-in&nbsp;class.&nbsp;&nbsp;You&nbsp;can&nbsp;also&nbsp;register<br>
+unrelated&nbsp;concrete&nbsp;classes&nbsp;(even&nbsp;built-in&nbsp;classes)&nbsp;and&nbsp;unrelated<br>
+ABCs&nbsp;as&nbsp;'virtual&nbsp;subclasses'&nbsp;--&nbsp;these&nbsp;and&nbsp;their&nbsp;descendants&nbsp;will<br>
+be&nbsp;considered&nbsp;subclasses&nbsp;of&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;by&nbsp;the&nbsp;built-in<br>
+issubclass()&nbsp;function,&nbsp;but&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;won't&nbsp;show&nbsp;up&nbsp;in<br>
+their&nbsp;MRO&nbsp;(Method&nbsp;Resolution&nbsp;Order)&nbsp;nor&nbsp;will&nbsp;method<br>
+implementations&nbsp;defined&nbsp;by&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;be&nbsp;callable&nbsp;(not<br>
+even&nbsp;via&nbsp;super()).</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="PizzaStore">class <strong>PizzaStore</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Abstract&nbsp;class&nbsp;to&nbsp;support&nbsp;factory&nbsp;design&nbsp;pattern-&nbsp;<a href="#PizzaStore">PizzaStore</a>&nbsp;supports&nbsp;localization&nbsp;of&nbsp;franchise&nbsp;stores<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="PizzaStore-create_pizza"><strong>create_pizza</strong></a>(self, item)</dt></dl>
+
+<dl><dt><a name="PizzaStore-order_pizza"><strong>order_pizza</strong></a>(self, pizza_type)</dt><dd><tt>place&nbsp;an&nbsp;order&nbsp;for&nbsp;whatever&nbsp;pizza&nbsp;is&nbsp;passed&nbsp;in,&nbsp;based&nbsp;on&nbsp;the&nbsp;locale&nbsp;provided</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset(['create_pizza'])</dl>
+
+<dl><dt><strong>__metaclass__</strong> = &lt;class 'abc.ABCMeta'&gt;<dd><tt>Metaclass&nbsp;for&nbsp;defining&nbsp;Abstract&nbsp;Base&nbsp;Classes&nbsp;(ABCs).<br>
+&nbsp;<br>
+Use&nbsp;this&nbsp;metaclass&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC.&nbsp;&nbsp;An&nbsp;ABC&nbsp;can&nbsp;be&nbsp;subclassed<br>
+directly,&nbsp;and&nbsp;then&nbsp;acts&nbsp;as&nbsp;a&nbsp;mix-in&nbsp;class.&nbsp;&nbsp;You&nbsp;can&nbsp;also&nbsp;register<br>
+unrelated&nbsp;concrete&nbsp;classes&nbsp;(even&nbsp;built-in&nbsp;classes)&nbsp;and&nbsp;unrelated<br>
+ABCs&nbsp;as&nbsp;'virtual&nbsp;subclasses'&nbsp;--&nbsp;these&nbsp;and&nbsp;their&nbsp;descendants&nbsp;will<br>
+be&nbsp;considered&nbsp;subclasses&nbsp;of&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;by&nbsp;the&nbsp;built-in<br>
+issubclass()&nbsp;function,&nbsp;but&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;won't&nbsp;show&nbsp;up&nbsp;in<br>
+their&nbsp;MRO&nbsp;(Method&nbsp;Resolution&nbsp;Order)&nbsp;nor&nbsp;will&nbsp;method<br>
+implementations&nbsp;defined&nbsp;by&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;be&nbsp;callable&nbsp;(not<br>
+even&nbsp;via&nbsp;super()).</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="VeggiePizza">class <strong>VeggiePizza</strong></a>(<a href="Pizza.html#Pizza">Pizza.Pizza</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>A&nbsp;concrete&nbsp;instance&nbsp;of&nbsp;<a href="Pizza.html#Pizza">Pizza</a>;&nbsp;an&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;to&nbsp;be&nbsp;created&nbsp;at&nbsp;the&nbsp;final&nbsp;stage&nbsp;when&nbsp;a&nbsp;Customer&nbsp;orders.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pizza.html#VeggiePizza">VeggiePizza</a></dd>
+<dd><a href="Pizza.html#Pizza">Pizza.Pizza</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="VeggiePizza-__init__"><strong>__init__</strong></a>(self, ingredient_factory)</dt><dd><tt>Construct&nbsp;a&nbsp;new&nbsp;<a href="#VeggiePizza">VeggiePizza</a>&nbsp;<a href="__builtin__.html#object">object</a>.<br>
+&nbsp;<br>
+:param&nbsp;factory:&nbsp;The&nbsp;name&nbsp;of&nbsp;the&nbsp;ingredient&nbsp;factory&nbsp;being&nbsp;used<br>
+:return:&nbsp;returns&nbsp;nothing&nbsp;at&nbsp;all</tt></dd></dl>
+
+<dl><dt><a name="VeggiePizza-prepare"><strong>prepare</strong></a>(self)</dt><dd><tt>Override&nbsp;the&nbsp;abstract&nbsp;class&nbsp;declared&nbsp;in&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,&nbsp;and&nbsp;<br>
+instantiate&nbsp;all&nbsp;appropriate&nbsp;ingredient&nbsp;values&nbsp;for&nbsp;the&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,<br>
+&nbsp;<br>
+:param&nbsp;dough:&nbsp;Calls&nbsp;create_dough()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:param&nbsp;sauce:&nbsp;Calls&nbsp;create_sauce()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:param&nbsp;cheese:&nbsp;Calls&nbsp;create_cheese()&nbsp;constructor&nbsp;of&nbsp;the&nbsp;factory&nbsp;used<br>
+:return:&nbsp;returns&nbsp;nothing&nbsp;at&nbsp;all</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset([])</dl>
+
+<hr>
+Methods inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><a name="VeggiePizza-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="VeggiePizza-bake"><strong>bake</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="VeggiePizza-box"><strong>box</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="VeggiePizza-calculate_price"><strong>calculate_price</strong></a>(self)</dt><dd><tt>creates&nbsp;a&nbsp;list&nbsp;of&nbsp;each&nbsp;of&nbsp;the&nbsp;attributes&nbsp;belonging&nbsp;to&nbsp;<a href="Pizza.html#Pizza">Pizza</a>,&nbsp;and&nbsp;sums&nbsp;the&nbsp;price&nbsp;values&nbsp;of<br>
+all&nbsp;of&nbsp;the&nbsp;objects.&nbsp;This&nbsp;is&nbsp;accomplished&nbsp;by&nbsp;concatenating&nbsp;whole&nbsp;lists&nbsp;alongside&nbsp;the&nbsp;singular<br>
+variables.<br>
+:param&nbsp;total_price:&nbsp;total&nbsp;price&nbsp;of&nbsp;the&nbsp;pizza&nbsp;including&nbsp;ingrediants<br>
+:param&nbsp;attr_list:&nbsp;all&nbsp;of&nbsp;the&nbsp;related&nbsp;objects</tt></dd></dl>
+
+<dl><dt><a name="VeggiePizza-cut"><strong>cut</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="Pizza.html#Pizza">Pizza.Pizza</a>:<br>
+<dl><dt><strong>__metaclass__</strong> = &lt;class 'abc.ABCMeta'&gt;<dd><tt>Metaclass&nbsp;for&nbsp;defining&nbsp;Abstract&nbsp;Base&nbsp;Classes&nbsp;(ABCs).<br>
+&nbsp;<br>
+Use&nbsp;this&nbsp;metaclass&nbsp;to&nbsp;create&nbsp;an&nbsp;ABC.&nbsp;&nbsp;An&nbsp;ABC&nbsp;can&nbsp;be&nbsp;subclassed<br>
+directly,&nbsp;and&nbsp;then&nbsp;acts&nbsp;as&nbsp;a&nbsp;mix-in&nbsp;class.&nbsp;&nbsp;You&nbsp;can&nbsp;also&nbsp;register<br>
+unrelated&nbsp;concrete&nbsp;classes&nbsp;(even&nbsp;built-in&nbsp;classes)&nbsp;and&nbsp;unrelated<br>
+ABCs&nbsp;as&nbsp;'virtual&nbsp;subclasses'&nbsp;--&nbsp;these&nbsp;and&nbsp;their&nbsp;descendants&nbsp;will<br>
+be&nbsp;considered&nbsp;subclasses&nbsp;of&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;by&nbsp;the&nbsp;built-in<br>
+issubclass()&nbsp;function,&nbsp;but&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;won't&nbsp;show&nbsp;up&nbsp;in<br>
+their&nbsp;MRO&nbsp;(Method&nbsp;Resolution&nbsp;Order)&nbsp;nor&nbsp;will&nbsp;method<br>
+implementations&nbsp;defined&nbsp;by&nbsp;the&nbsp;registering&nbsp;ABC&nbsp;be&nbsp;callable&nbsp;(not<br>
+even&nbsp;via&nbsp;super()).</tt></dl>
+
+</td></tr></table></td></tr></table>
+</body></html>

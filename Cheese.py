@@ -3,12 +3,18 @@ import abc
 # Cheese class + Cheese Ingredients
 #
 class Cheese:
+	"""
+	overaching ingredient class, of which specific ingredients can inherit and modify from.
+	"""
 	__metaclass__ = abc.ABCMeta
 
 	@abc.abstractmethod
 	def __str__(self): pass
 
 class CreamCheese(Cheese):
+	"""
+	instantiate price point of ingredient and create a new ToString() representation 
+	"""
 	def __init__(self):
 		self.price = 0.5
 		
@@ -16,12 +22,18 @@ class CreamCheese(Cheese):
 		return "Cream Cheese"
 
 class VeganCheese(Cheese):
+	"""
+	instantiate price point of ingredient and create a new ToString() representation 
+	"""
 	def __init__(self):
 		self.price = 0.5
 	def __str__(self):
 		return "Vegan Cheese"
 
 class Mozzarella(Cheese):
+	"""
+	instantiate price point of ingredient and create a new ToString() representation 
+	"""
 	def __init__(self):
 		self.price = 0.5
 
@@ -29,6 +41,9 @@ class Mozzarella(Cheese):
 		return "Mozzarella Cheese"
 
 class Parmesan(Cheese):
+	"""
+	instantiate price point of ingredient and create a new ToString() representation 
+	"""
 	def __init__(self):
 		self.price = 0.5
 
@@ -36,6 +51,9 @@ class Parmesan(Cheese):
 		return "Parmesan Cheese"
 
 class Feta(Cheese):
+	"""
+	instantiate price point of ingredient and create a new ToString() representation 
+	"""
 	def __init__(self):
 		self.price = 0.5
 
@@ -43,6 +61,9 @@ class Feta(Cheese):
 		return "Feta Cheese"
 		
 class Ricotta(Cheese):
+	"""
+	instantiate price point of ingredient and create a new ToString() representation 
+	"""
 	def __init__(self):
 		self.price = 0.5
 
