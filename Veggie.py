@@ -10,49 +10,73 @@ class Veggie:
 
 
 class GreenPeppers(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Green Peppers"
 
 class GreenOlives(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Green Olives"
 
 class BananaPeppers(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Banana Peppers"
 
 class ArtichokePeppers(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Artichoke Peppers"
 
 class Garlic(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Garlic"
 
 class JalapenoPeppers(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Jalapenos"
 
 class Mushroom(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Mushrooms"
 
 class Spinach(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Spinach"
 
 class SundriedTomatoes(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Sundried Tomatoes"
 
 class Basil(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Basil"
 
 class Pineapple(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Pineapple"
 
 class BlackOlives(Veggie):
+	def __init__(self):
+		self.price = 0.5
 	def __str__(self):
 		return "Black Olives"

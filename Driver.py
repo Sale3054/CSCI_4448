@@ -63,6 +63,7 @@ class PizzaStore:
 		pizza.bake()
 		pizza.cut()
 		pizza.box()
+		print("Total Price: $" + str(pizza.calculate_price()))
 
 		return pizza
 
@@ -80,8 +81,8 @@ class BoulderPizzaStore(PizzaStore):
 
 
 if __name__ == '__main__':
-    nyStore = BoulderPizzaStore()
-    pizza = nyStore.order_pizza("cheese")
+    Boulder = BoulderPizzaStore()
+    pizza = Boulder.order_pizza("cheese")
     print("Some dude ordered a " + str(pizza) + "\n")
 
 	

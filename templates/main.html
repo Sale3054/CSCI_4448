@@ -1,21 +1,34 @@
-<form action="post.html" method="post">
-	Name: <input type="text" name="name"></input> <br>
-	Premade Pizzas: <input type="radio" name="topping" value="supreme">Supreme</input>
+<form action="/" method="post">
+	Name: 
+	<input type="text" name="name"></input> <br>
+	Premade Pizzas: 
+	<input type="radio" name="topping" value="cheese">Cheese</input>
 	<input type="radio" name="topping" value="vegetarian">Vegetarian</input>
 	<input type="radio" name="topping" value="hawaiian">Hawaiian</input>
+	<input type="radio" name="topping" value="meat_lover">Meat Lover's</input>
+	<input type="radio" name="topping" value="BlackOlives">Black Olives</input>
+	<input type="radio" name="topping" value="DIY">Choose Your Own</input>
+	
 	<br>
+	
 	<select name="sauce">
 		<option selected="selected" value="secret">Select a Sauce</option>
-		<option value="tomato">Tomato</option>
-		<option value="barbeque">Barbeque</option>
-		<option value="mayonnaise">Mayonnaise</option>
-
+		<option value="marinara">Marinara</option>
+		<option value="white">White</option>
+		<option value="bbq">BBQ</option>
 	</select>
+	
 	<br>
+	
 	Extras: <input type="checkbox" name="extra_cheese" value="1">Extra Cheese</input>
 	<input type="checkbox" name="gluten_free" value="1">Gluten Free Base</input>
+	
 	<br>
+	
 	<textarea name="delivery" cols="50" rows="4"></textarea>
 
 	<input type="submit" value="Send my Order">
 </form>
+
+
+{{message}}
