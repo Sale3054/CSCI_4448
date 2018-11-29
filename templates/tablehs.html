@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+   <body>
+      <table border = 1>
+         <thead>
+            <td>Name</td>
+            <td>Address>/td<
+            <td>Pizza</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row["patron_name"]}}</td>
+               <td>{{row["addr"]}}</td>
+               <td> {{ row["pizza_"]}}</td>
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/">go home</a>
+   </body>
+</html>
